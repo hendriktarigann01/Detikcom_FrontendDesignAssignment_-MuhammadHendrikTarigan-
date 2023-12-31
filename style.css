@@ -616,11 +616,18 @@ section a:nth-child(3):hover~.animation{
 }
 
 /* -------------------berita------------------- */
-
+.bg-footer{
+  width: 100%;
+  position: relative;
+  display: flex;
+  top: 0;
+  left: 0;
+}
 #footer{
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
   align-items: flex-start;
   gap: 30px;
   padding: 50px 70px;
@@ -726,12 +733,4 @@ section a:nth-child(3):hover~.animation{
   font-size: 16px;
   letter-spacing: 0.08px;
   line-height: 16px;
-}
-
-#footer .bg-footer{
-  position: absolute;
-  width: 1440px;
-  height: 1459px;
-  top: 0;
-  left: 0;
 }
